@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="m-celltitle">带图标的</view>
+  <view class="m-cell">
+    <view class="cell-item">
+        <view class="cell-left">手机型号：</view>
+        <text class='cell-right'>{{mobileModel}}</text>
+    </view>
+    <view class="cell-item">
+        <view class="cell-left">设备像素比：</view>
+        <text class='cell-right'>{{mobileePixelRatio}}</text>
+    </view>
+    <view class="cell-item">
+        <view class="cell-left">手机可见区域：</view>
+        <text class='cell-right'>{{windowWidth}} * {{windowHeight}}</text>
+    </view>
+    <view class="cell-item">
+        <view class="cell-left">微信使用语言：</view>
+        <text class='cell-right'>{{language}}</text>
+    </view>
+    <view class="cell-item">
+        <view class="cell-left">微信版本号：</view>
+        <text class='cell-right'>{{version}}</text>
+    </view>
+    <view class="cell-item">
+        <view class="cell-left">网络类型：</view>
+        <text class='cell-right'>{{networkType}}</text>
+    </view>
+  </view>
+</view>

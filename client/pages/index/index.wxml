@@ -1,0 +1,79 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="g-flexview">
+    <view class="g-scrollview">
+
+      <view class="userinfo" bindtap="login">
+        <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}" background-size="cover"></image>
+        <view>
+          <text class="userinfo-nickname">{{logged ? userInfo.nickName : '登录'}}</text>
+          <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
+        </view>
+      </view>
+
+      <view>当前时间：{{nowTime}}</view>
+
+      <view class="m-grids-4">
+        <view class="grids-item zero">
+          <i class="icons-zero"></i>
+        </view>
+        <view class="grids-item one">
+          <i class="icons-one"></i>
+        </view>
+        <view class="grids-item two">
+          <i class="icons-two"></i>
+        </view>
+        <view class="grids-item three">
+          <i class="icons-three"></i>
+        </view>
+        <view class="grids-item four">
+          <i class="icons-four"></i>
+        </view>
+        <view class="grids-item five">
+          <i class="icons-five"></i>
+        </view>
+        <view class="grids-item six">
+          <i class="icons-six"></i>
+        </view>
+        <view class="grids-item seven">
+          <i class="icons-seven"></i>
+        </view>
+        <view class="grids-item eight">
+          <i class="icons-eight"></i>
+        </view>
+        <view class="grids-item nine">
+          <i class="icons-nine"></i>
+        </view>
+        <view class="grids-item shu">
+          <navigator url="../logs/logs">
+            <i class="icons-shu"></i>
+          </navigator>
+        </view>
+        <view class="grids-item ma">
+          <navigator url="../information/information">
+            <i class="icons-ma"></i>
+          </navigator>
+        </view>
+        <view class="grids-item jia">
+          <navigator url="../map/map">
+            <i class="icons-jia"></i>
+          </navigator>
+        </view>
+        <view class="grids-item yong">
+          <i class="icons-yong"></i>
+        </view>
+        <view class="grids-item dian">
+          <view class="grids-icon">
+            <i class="icons-dian"></i>
+          </view>
+        </view>
+        <view class="grids-item qi">
+          <i class="icons-qi"></i>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

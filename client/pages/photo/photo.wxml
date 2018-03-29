@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="grid_item" wx:for="{{num}}" wx:for-item="i">
+    <image mode="{{mode}}" src="{{srcUrl}}{{i}}.jpg" ></image>
+  </view>
+</view>

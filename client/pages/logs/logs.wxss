@@ -1,0 +1,8 @@
+@import "../../static/default.wxss";
+
+.container {
+  background-color: #F5F5F5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

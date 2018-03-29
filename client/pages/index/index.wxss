@@ -1,0 +1,350 @@
+@import "../../static/default.wxss";
+
+.container {
+  background-color: #1b5955;
+  background-image: radial-gradient(center, ellipse cover, #5ca084 0%, #1b5955 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.g-flexview {
+  width: 100%;
+}
+.userinfo {
+  text-align: center;
+  margin: 40px 0 10px 0;
+}
+.userinfo .userinfo-avatar {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.userinfo .userinfo-nickname {
+  color: #888;
+}
+.m-grids-4 {
+  overflow: hidden;
+  text-align: center;
+}
+.grids-item {
+  float: left;
+  height: 3rem;
+  width: 4rem;
+  padding-top: 1rem;
+  margin: .5rem;
+  text-align: center;
+  background: #AB0000;
+  border-radius: 1rem;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  box-shadow: inset 0 0.3rem 0.2rem rgba(255, 255, 255, 0.2), inset 0 -0.3rem 0.2rem rgba(0, 0, 0, 0.2), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0.05rem rgba(0, 0, 0, 0.8), 0 0.3rem 0.4rem rgba(0, 0, 0, 0.2), 0 -0.2rem 0.4rem rgba(255, 255, 255, 0.2);
+}
+.grids-icon { 
+  height: 1rem;
+}
+.icons-zero::after {
+  font-family: "iconfont";
+  content: "\e68d";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.one {
+  background: #e47911;
+}
+.icons-one::after {
+  font-family: "iconfont";
+  content: "\e696";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.two {
+  background: #a4c639;
+}
+.icons-two::after {
+  font-family: "iconfont";
+  content: "\e695";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.three {
+  background: #303030;
+}
+.icons-three::after {
+  font-family: "iconfont";
+  content: "\e694";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.four {
+  background: #FF3801;
+}
+.icons-four::after {
+  font-family: "iconfont";
+  content: "\e693";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.five {
+  background: #1CA3F3;
+}
+.icons-five::after {
+  font-family: "iconfont";
+  content: "\e692";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.six {
+  background: #205081;
+}
+.icons-six::after {
+  font-family: "iconfont";
+  content: "\e691";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.seven {
+  background: #F7931A;
+}
+.icons-seven::after {
+  font-family: "iconfont";
+  content: "\e690";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.eight {
+  background: #fc4f08;
+}
+.icons-eight::after {
+  font-family: "iconfont";
+  content: "\e68f";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.nine {
+  background: #FF7404;
+}
+.icons-nine::after {
+  font-family: "iconfont";
+  content: "\e68e";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.shu {
+  background: #205cc0;
+}
+.icons-shu::after {
+  font-family: "iconfont";
+  content: "\e67b";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.ma {
+  background: #282828;
+}
+.icons-ma::after {
+  font-family: "iconfont";
+  content: "\e67a";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.jia {
+  background: #59a3fc;
+}
+.icons-jia::after {
+  font-family: "iconfont";
+  content: "\e679";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.yong {
+  background: #ea4c89;
+}
+.icons-yong::after {
+  font-family: "iconfont";
+  content: "\e678";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.dian {
+  background: #3d9ae8;
+}
+.icons-dian::after {
+  font-family: "iconfont";
+  content: "\e677";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item.qi {
+  background: #0c76ab;
+}
+.icons-qi::after {
+  font-family: "iconfont";
+  content: "\e676";
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+.grids-item {
+  background: #ffde27;
+}
+.grids-item {
+  background: #FF7100;
+}
+.grids-item {
+  background: #5ba525;
+}
+.grids-item {
+  background: #3b5998;
+}
+.grids-item {
+  background: #00A8E2;
+}
+.grids-item {
+  background: #6CBC16;
+}
+.grids-item {
+  background: #E0006A;
+}
+.grids-item {
+  background: #5b9a68;
+}
+.grids-item {
+  background: #25a0ca;
+}
+.grids-item {
+  background: #666666;
+}
+.grids-item {
+  background: #DF4125;
+}
+.grids-item {
+  background: #db4a39;
+}
+.grids-item {
+  background: #f77f00;
+}
+.grids-item {
+  background: #E34C26;
+}
+.grids-item {
+  background: #0094D8;
+}
+.grids-item {
+  background: #634d40;
+}
+.grids-item {
+  background: #4380D0;
+}
+.grids-item {
+  background: #E05431;
+}
+.grids-item {
+  background: #387BBD;
+}
+.grids-item {
+  background: #c3000d;
+}
+.grids-item {
+  background: #0e76a8;
+}
+.grids-item {
+  background: #E52A38;
+}
+.grids-item {
+  background: #0091DF;
+}
+.grids-item {
+  background: #D0701D;
+}
+.grids-item {
+  background: #1e477a;
+}
+.grids-item {
+  background: #910101;
+}
+.grids-item {
+  background: #4166F9;
+}
+.grids-item {
+  background: #161616;
+}
+.grids-item {
+  background: #EE4056;
+}
+.grids-item {
+  background: #360961;
+}
+.grids-item {
+  background: #a82400;
+}
+.grids-item {
+  background: #CEE3F8;
+}
+.grids-item {
+  background: #fa9b39;
+}
+.grids-item {
+  background: #103847;
+}
+.grids-item {
+  background: #00aff0;
+}
+.grids-item {
+  background: #EF4E3A;
+}
+.grids-item {
+  background: #D42236;
+}
+.grids-item {
+  background: #ff7700;
+}
+.grids-item {
+  background: #81b71a;
+}
+.grids-item {
+  background: #1A233E;
+}
+.grids-item {
+  background: #050505;
+}
+.grids-item {
+  background: #008cdd;
+}
+.grids-item {
+  background: #f74425;
+}
+.grids-item {
+  background: #34526f;
+}
+.grids-item {
+  background: #00a0d1;
+}
+.grids-item {
+  background: #F6A73A;
+}
+.grids-item {
+  background: #86c9ef;
+}
+.grids-item {
+  background: #4E7299;
+}
+.grids-item {
+  background: #EB182C;
+}
+.grids-item {
+  background: #549E3D;
+}
+.grids-item {
+  background: #1E8CBE;
+}
+.grids-item {
+  background: #036568;
+}
+.grids-item {
+  background: #720e9e;
+}
+.grids-item {
+  background: #C41200;
+}
+.grids-item {
+  background: #c4302b;
+}
